@@ -18,11 +18,9 @@ const App: () => React$Node = () => {
       <Text style={{color: PlatformColor('?attr/colorPrimary')}}>
         ?attr/colorPrimary
       </Text>
-      {
-        <Text style={{color: PlatformColor('?attr/textColorPrimary')}}>
-          ?attr/textColorPrimary
-        </Text>
-      }
+      {/* <Text style={{color: PlatformColor('?attr/textColorPrimary')}}>
+        ?attr/textColorPrimary
+      </Text> */}
     </View>
   );
 };
